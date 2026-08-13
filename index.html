@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contabilidad · Reventa Amazon</title>
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAUmUlEQVR4nO2de2wdWX3Hv79zZu7ch33tOHHsJM5j89gkziYkzWafEmHZZYECyx/8QUuhSKiItir9r6qQClKlirZIRWqrSq0EKhVUVH0AWtEtZWEfbFjSJdls9pE4OLt5EsePdexr+86dxzm//jHX7zuO7dhz5zrnI0eJrHhmPPOZc36/33lc2rijGwZDLUS9L8CQXowchliMHIZYjByGWIwchliMHIZYjByGWIwchliMHIZYjByGWIwchliMHIZYjByGWIwchliMHIZYjByGWIwchliMHIZYjByGWIwchliMHIZYjByGWIwchliMHIZYjByGWIwchliMHIZYrHpfwEIQQAQiBoNB9b6clYSImYkZXO8rWYCUyiEIRBwoCkLylBQES6T5Ni4BAkKG0mQLzki2JQOsOY3qW0jZGymImckNyQ9FWz7c1ebta3dzln6ga6Lel7YCMCMjuWcoe72UGZiwLwxmB8sWM+UsbQnWTKl6A1LUchBBgEuezEje01b56L6RY1vKGwtBIaMAhDpdEt8JRzaXLcFuIEYqsmcw90xvyy+vN41WrIKjJEGnRhDauONAva8BAAQh0OQG9Ng9Y588+O7+9krBVpVQBJqUJhAo1b3z0mAQGIJYCs7ZrDRulDLP9Lb+x5tt475odpRKx5uQCjmk4AlftmTVHxzr/9i+EQbcQCgmAaZU3KXVggHNROCM5EJGv3Ez97cnO0/fKLQ4igGu9+tQfzkk8bBrPbR1/M+O39hc9EueBCDWtBPzYYZiasoozfStMxu+cao9Z2tL1LmLqbMcglDyxO8dHfzdI0OSUA7EmslKloFiksQFW5+83vTnz28e82TW4jr6ISgqJ9TjSwoe8+TvHxv4wwcHlKZKSHezGQAkMQMlTz66bexrH7zWlNGBIkF1e0B1q5BKwbfK1ueODn7h2OBw2eK7ryupSfTODLvWoY7y1z54TRBrTfUKvOojhyBMePKhreOfPTw0UpFCpLIGVD8swSMV68imic8dHXTDugXldZCDgFCjJRt+6XifJVivscL4CmEJHnGtzx4Zet89pTFPyHrcozrIIQSXA/mFBwa6WryJQJjeJA4idgPxxYf6NxTCQNfhApKWQxDGPPneHaWn9o2UKvIuj0AXhgieEl1F/wvH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">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Mi Contabilidad">
+<meta name="theme-color" content="#16202A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#EEF1EC;
+    --surface:#FFFFFF;
+    --surface-2:#F5F6F2;
+    --ink:#16202A;
+    --ink-soft:#57646F;
+    --line:#DBDFD7;
+    --accent:#C97C05;
+    --accent-soft:#F3E1BE;
+    --accent-ink:#7A4E00;
+    --positive:#1F7A5C;
+    --positive-soft:#DCEFE6;
+    --negative:#C1432D;
+    --negative-soft:#F7E2DC;
+    --warn:#B8860B;
+    --warn-soft:#F3E7C8;
+    --info:#2A5C8A;
+    --info-soft:#DEE9F2;
+    --radius:10px;
+    --font-display:'Space Grotesk',sans-serif;
+    --font-body:'Inter',sans-serif;
+    --font-mono:'IBM Plex Mono',monospace;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:14px;}
+  ::selection{background:var(--accent-soft);}
+  .app{display:flex;min-height:100vh;}
+
+  .sidebar{width:230px;flex-shrink:0;background:var(--ink);color:#fff;display:flex;flex-direction:column;padding:22px 14px;}
+  .brand{font-family:var(--font-display);font-weight:700;font-size:17px;letter-spacing:.2px;display:flex;align-items:center;gap:9px;padding:0 8px 22px 8px;border-bottom:1px solid rgba(255,255,255,.12);margin-bottom:16px;}
+  .brand .box{width:22px;height:22px;background:var(--accent);border-radius:5px;display:inline-flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0;}
+  nav.navlist{display:flex;flex-direction:column;gap:2px;flex:1;}
+  .navlink{display:flex;align-items:center;gap:10px;padding:10px 10px;border-radius:8px;color:rgba(255,255,255,.72);cursor:pointer;font-weight:500;font-size:13.5px;border:none;background:none;text-align:left;font-family:var(--font-body);width:100%;position:relative;}
+  .navlink .ic{width:18px;text-align:center;font-size:14px;}
+  .navlink:hover{background:rgba(255,255,255,.06);color:#fff;}
+  .navlink.active{background:var(--accent);color:#241500;font-weight:600;}
+  .navbadge{margin-left:auto;background:var(--negative);color:#fff;font-size:10px;font-weight:700;border-radius:20px;padding:1px 6px;}
+  .side-foot{border-top:1px solid rgba(255,255,255,.12);padding-top:12px;margin-top:10px;font-size:11.5px;color:rgba(255,255,255,.45);line-height:1.5;}
+
+  .main{flex:1;padding:28px 34px 60px;max-width:1180px;}
+  .view{display:none;}
+  .view.visible{display:block;animation:fade .18s ease;}
+  @keyframes fade{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:none;}}
+  h1.pagetitle{font-family:var(--font-display);font-size:23px;margin:0 0 4px;font-weight:600;}
+  .subtitle{color:var(--ink-soft);font-size:13.5px;margin:0 0 24px;}
+
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-bottom:26px;}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;}
+  .card .label{font-size:11.5px;text-transform:uppercase;letter-spacing:.5px;color:var(--ink-soft);font-weight:600;margin-bottom:8px;}
+  .card .value{font-family:var(--font-mono);font-size:22px;font-weight:600;}
+  .card .foot{font-size:11.5px;color:var(--ink-soft);margin-top:4px;}
+  .card.accent{background:var(--accent-soft);border-color:transparent;}
+  .card.accent .value{color:var(--accent-ink);}
+  .card.pos .value{color:var(--positive);}
+  .card.neg .value{color:var(--negative);}
+  .card.warnc{background:var(--warn-soft);border-color:transparent;}
+  .card.warnc .value{color:var(--warn);}
+
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;margin-bottom:22px;}
+  .panel h2{font-family:var(--font-display);font-size:15.5px;margin:0 0 14px;font-weight:600;}
+  .panel h2 .muted{color:var(--ink-soft);font-weight:400;font-size:12.5px;}
+
+  .formgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;align-items:end;}
+  .field{display:flex;flex-direction:column;gap:5px;}
+  .field label{font-size:11.5px;font-weight:600;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.3px;}
+  input,select{font-family:var(--font-body);font-size:13.5px;padding:8px 10px;border:1px solid var(--line);border-radius:7px;background:var(--surface-2);color:var(--ink);width:100%;}
+  input:focus,select:focus{outline:2px solid var(--accent);outline-offset:0;border-color:var(--accent);background:#fff;}
+  input[type=number], input[type=date]{font-family:var(--font-mono);}
+  .btn{font-family:var(--font-body);font-weight:600;font-size:13px;padding:9px 16px;border-radius:7px;border:none;cursor:pointer;background:var(--accent);color:#2A1900;}
+  .btn:hover{filter:brightness(0.95);}
+  .btn.secondary{background:var(--ink);color:#fff;}
+  .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--ink);}
+  .help{font-size:12px;color:var(--ink-soft);background:var(--info-soft);border-left:3px solid var(--info);padding:9px 12px;border-radius:6px;margin-bottom:16px;line-height:1.55;}
+
+  table{width:100%;border-collapse:collapse;font-size:13px;}
+  thead th{text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.4px;color:var(--ink-soft);border-bottom:1px solid var(--line);padding:8px 10px;font-weight:600;}
+  tbody td{padding:9px 10px;border-bottom:1px solid var(--surface-2);}
+  tbody tr:hover{background:var(--surface-2);}
+  td.num, th.num{text-align:right;font-family:var(--font-mono);}
+  .pill{display:inline-block;padding:2px 8px;border-radius:20px;font-size:11px;font-weight:600;}
+  .pill.fba{background:var(--info-soft);color:var(--info);}
+  .pill.fbm{background:var(--accent-soft);color:var(--accent-ink);}
+  .pill.ok{background:var(--positive-soft);color:var(--positive);}
+  .pill.pronto{background:var(--warn-soft);color:var(--warn);}
+  .pill.urgente{background:var(--negative-soft);color:var(--negative);}
+  .pill.sinventas{background:var(--surface-2);color:var(--ink-soft);}
+  .del{background:none;border:none;color:var(--negative);cursor:pointer;font-size:15px;padding:2px 6px;border-radius:5px;}
+  .del:hover{background:var(--negative-soft);}
+  .empty{padding:26px;text-align:center;color:var(--ink-soft);font-size:13px;}
+
+  .flow{display:flex;height:9px;border-radius:5px;overflow:hidden;background:var(--surface-2);width:100%;min-width:100px;}
+  .flow span{height:100%;}
+  .flow .seg-almacen{background:var(--ink-soft);}
+  .flow .seg-fba{background:var(--info);}
+  .flow .seg-vendido{background:var(--positive);}
+  .flow-legend{display:flex;gap:14px;font-size:11px;color:var(--ink-soft);margin-top:10px;flex-wrap:wrap;}
+  .flow-legend span{display:inline-flex;align-items:center;gap:5px;}
+  .dot{width:8px;height:8px;border-radius:2px;display:inline-block;}
+
+  .statement{max-width:540px;}
+  .stline{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px dashed var(--line);font-size:13.5px;}
+  .stline.total{border-bottom:none;border-top:2px solid var(--ink);margin-top:6px;padding-top:12px;font-weight:700;font-size:15px;}
+  .stline .amt{font-family:var(--font-mono);}
+  .stline.sub{padding-left:14px;color:var(--ink-soft);}
+  .stline .amt.neg{color:var(--negative);}
+  .stline .amt.pos{color:var(--positive);}
+
+  select.rangepicker{max-width:220px;display:inline-block;}
+  .rangebar{display:flex;gap:10px;align-items:end;margin-bottom:20px;flex-wrap:wrap;}
+
+  .topbar-actions{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;flex-wrap:wrap;gap:10px;}
+
+  .syncpanel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin-bottom:18px;}
+  .syncrow{display:flex;gap:10px;align-items:end;flex-wrap:wrap;}
+  .syncrow .field{min-width:200px;flex:1;}
+  .status-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ink-soft);margin-right:6px;flex-shrink:0;}
+  .status-dot.on{background:var(--positive);}
+  .status-dot.off{background:var(--negative);}
+  .syncstatus{font-size:12.5px;color:var(--ink-soft);margin-top:10px;display:flex;align-items:center;}
+  .synchow{font-size:12px;color:var(--info);cursor:pointer;text-decoration:underline;background:none;border:none;padding:0;margin-top:8px;font-family:var(--font-body);}
+  .backup-actions{display:flex;gap:8px;margin-top:14px;padding-top:14px;border-top:1px solid var(--surface-2);flex-wrap:wrap;}
+  .panel-collapsed{max-height:220px;overflow:hidden;position:relative;}
+
+  .alertbox{border-radius:8px;padding:10px 14px;margin-bottom:8px;display:flex;justify-content:space-between;align-items:center;font-size:13px;}
+  .alertbox.urgente{background:var(--negative-soft);color:var(--negative);}
+  .alertbox.pronto{background:var(--warn-soft);color:var(--warn);}
+
+  .supplierGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;}
+  .supplierCard{background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:16px;position:relative;}
+  .supplierCard h3{font-family:var(--font-display);font-size:15px;margin:0 0 6px;padding-right:22px;}
+  .supplierCard .scontact{font-size:12.5px;color:var(--ink-soft);line-height:1.7;}
+  .supplierCard .scontact a{color:var(--info);text-decoration:none;}
+  .supplierCard .sproducts{font-size:12.5px;margin-top:8px;padding-top:8px;border-top:1px dashed var(--line);}
+  .supplierCard .snotes{font-size:12px;color:var(--ink-soft);margin-top:8px;font-style:italic;}
+  .supplierCard .sdel{position:absolute;top:12px;right:10px;}
+  .estpill{display:inline-block;padding:2px 9px;border-radius:20px;font-size:11px;font-weight:600;margin-bottom:8px;}
+  .estpill.contactar{background:var(--surface);color:var(--ink-soft);border:1px solid var(--line);}
+  .estpill.contactado{background:var(--info-soft);color:var(--info);}
+  .estpill.negociando{background:var(--warn-soft);color:var(--warn);}
+  .estpill.activo{background:var(--positive-soft);color:var(--positive);}
+  .estpill.descartado{background:var(--negative-soft);color:var(--negative);}
+  .supplierFilters{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;}
+  .supplierFilters button{font-family:var(--font-body);font-size:12px;padding:6px 12px;border-radius:20px;border:1px solid var(--line);background:var(--surface);cursor:pointer;color:var(--ink-soft);}
+  .supplierFilters button.active{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  .backuphero{
+    background:linear-gradient(135deg,#1B2430 0%,#16202A 100%);
+    border-radius:14px;padding:26px 28px;margin-bottom:22px;
+    display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;
+  }
+  .backuphero-text h2{font-family:var(--font-display);color:#fff;font-size:18px;margin:0 0 6px;}
+  .backuphero-text p{color:rgba(255,255,255,.62);font-size:13px;margin:0;max-width:320px;line-height:1.5;}
+  .backuphero-actions{display:flex;gap:12px;flex-wrap:wrap;}
+  .bigbtn{
+    display:flex;align-items:center;gap:12px;border:none;border-radius:12px;padding:14px 20px;cursor:pointer;
+    font-family:var(--font-body);text-align:left;min-width:230px;transition:transform .12s ease;
+  }
+  .bigbtn:hover{transform:translateY(-2px);}
+  .bigbtn.download{background:linear-gradient(135deg,#E8A33D,#C97C05);}
+  .bigbtn.upload{background:linear-gradient(135deg,#2E9E77,#1F7A5C);}
+  .bigbtn-ic{font-size:24px;flex-shrink:0;}
+  .bigbtn-text{display:flex;flex-direction:column;color:#fff;}
+  .bigbtn-text strong{font-size:14px;}
+  .bigbtn-text small{font-size:11.5px;opacity:.85;margin-top:2px;}
+  @media (max-width:640px){ .backuphero{flex-direction:column;align-items:stretch;} .bigbtn{min-width:0;} }
+
+  .ac-wrap{position:relative;}
+  .ac-list{position:absolute;top:calc(100% + 2px);left:0;right:0;background:#fff;border:1px solid var(--line);border-radius:8px;max-height:190px;overflow-y:auto;z-index:80;box-shadow:0 6px 18px rgba(0,0,0,.15);display:none;}
+  .ac-list.show{display:block;}
+  .ac-item{padding:9px 12px;font-size:13.5px;cursor:pointer;border-bottom:1px solid var(--surface-2);}
+  .ac-item:last-child{border-bottom:none;}
+  .ac-item:active, .ac-item.hl{background:var(--accent-soft);}
+  .ac-empty{padding:9px 12px;font-size:12.5px;color:var(--ink-soft);}
+
+  @media (max-width:860px){
+    .app{flex-direction:column;}
+    .sidebar{width:100%;flex-direction:row;overflow-x:auto;padding:12px;align-items:center;}
+    .brand{border:none;padding:0 12px 0 0;margin:0;flex-shrink:0;}
+    nav.navlist{flex-direction:row;flex:none;}
+    .side-foot{display:none;}
+    .main{padding:18px 16px 50px;}
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand"><span class="box">📦</span> Mi Contabilidad</div>
+    <nav class="navlist" id="nav"></nav>
+    <div class="side-foot">Se guarda automáticamente.<br>Datos privados de tu cuenta.</div>
+  </aside>
+
+  <main class="main">
+
+    <section class="view" id="view-dashboard">
+      <div class="topbar-actions">
+        <div>
+          <h1 class="pagetitle">Resumen del negocio</h1>
+          <p class="subtitle">Tu operación de compra al por mayor y reventa en Amazon, de un vistazo.</p>
+        </div>
+      </div>
+      <div class="cards" id="dashCards"></div>
+
+      <div class="panel" id="alertPanel">
+        <h2>⚠️ Alertas de reposición <span class="muted">— según tu velocidad de venta reciente</span></h2>
+        <div id="alertList"></div>
+      </div>
+
+      <div class="panel">
+        <h2>Tendencia — últimos 6 meses</h2>
+        <div id="trendChart"></div>
+      </div>
+
+      <div class="backuphero">
+        <div class="backuphero-text">
+          <h2>💾 Respaldo de tus datos</h2>
+          <p>Descarga una copia cuando quieras, y cárgala en cualquier computadora o celular para seguir donde te quedaste.</p>
+        </div>
+        <div class="backuphero-actions">
+          <button class="bigbtn download" type="button" id="btnExport">
+            <span class="bigbtn-ic">⬇️</span>
+            <span class="bigbtn-text"><strong>Descargar copia</strong><small>Guarda un archivo .json en tu dispositivo</small></span>
+          </button>
+          <button class="bigbtn upload" type="button" id="btnImportTrigger">
+            <span class="bigbtn-ic">⬆️</span>
+            <span class="bigbtn-text"><strong>Cargar copia</strong><small>Recupera tus datos desde un archivo .json</small></span>
+          </button>
+          <input type="file" id="btnImport" accept=".json" style="display:none">
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>⚙️ Ajustes</h2>
+        <div class="formgrid">
+          <div class="field"><label>Símbolo de moneda</label><input id="currencyInput" maxlength="3" value="$"></div>
+          <div class="field"><label>Tiempo de entrega proveedor (días)</label><input type="number" id="leadTimeInput" min="1" value="21"></div>
+          <div class="field"><label>Ventana de velocidad de venta (días)</label><input type="number" id="velocityInput" min="7" value="30"></div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Productos con mejor utilidad <span class="muted">— histórico total</span></h2>
+        <div id="dashTopProducts"></div>
+      </div>
+    </section>
+
+    <section class="view" id="view-proveedores">
+      <h1 class="pagetitle">Directorio de proveedores</h1>
+      <p class="subtitle">Guarda aquí cada proveedor que vas encontrando mientras buscas — aunque todavía no le compres nada. Su info de contacto, qué vende, y en qué va tu negociación.</p>
+      <div class="panel">
+        <h2>Nuevo proveedor</h2>
+        <form class="formgrid" id="formProveedor" autocomplete="off">
+          <div class="field"><label>Nombre / empresa</label><input type="text" name="nombre" required placeholder="Ej. Mayorista XYZ"></div>
+          <div class="field"><label>Persona de contacto</label><input type="text" name="contacto" placeholder="Opcional"></div>
+          <div class="field"><label>Teléfono / WhatsApp</label><input type="text" name="telefono" placeholder="Opcional"></div>
+          <div class="field"><label>Email</label><input type="text" name="email" placeholder="Opcional"></div>
+          <div class="field"><label>Sitio web / Alibaba / etc.</label><input type="text" name="web" placeholder="Opcional"></div>
+          <div class="field"><label>Ubicación</label><input type="text" name="ubicacion" placeholder="Ciudad, país"></div>
+          <div class="field"><label>Pedido mínimo (MOQ)</label><input type="text" name="moq" placeholder="Ej. 100 unidades"></div>
+          <div class="field"><label>Estado</label>
+            <select name="estado">
+              <option value="contactar">Por contactar</option>
+              <option value="contactado">Contactado</option>
+              <option value="negociando">Negociando</option>
+              <option value="activo">Activo (ya le compro)</option>
+              <option value="descartado">Descartado</option>
+            </select>
+          </div>
+          <div class="field" style="grid-column:1/-1;"><label>Qué vende / categorías de producto</label><input type="text" name="productos" placeholder="Ej. termos, mochilas, artículos de cocina"></div>
+          <div class="field" style="grid-column:1/-1;"><label>Notas</label><input type="text" name="notas" placeholder="Precios, condiciones, impresiones de la llamada, etc."></div>
+          <div class="field"><button class="btn" type="submit">Guardar proveedor</button></div>
+        </form>
+      </div>
+      <div class="panel">
+        <h2>Tus proveedores <span class="muted" id="supplierCount"></span></h2>
+        <div class="supplierFilters" id="supplierFilters"></div>
+        <div class="supplierGrid" id="listaProveedores"></div>
+      </div>
+    </section>
+
+    <section class="view" id="view-compras">
+      <h1 class="pagetitle">Compras a proveedores</h1>
+      <p class="subtitle">Registra cada compra al por mayor. El costo de envío/importación se suma al costo del lote (FIFO) para calcular tu costo real.</p>
+      <div class="panel">
+        <h2>Nueva compra</h2>
+        <form class="formgrid" id="formCompra" autocomplete="off">
+          <div class="field"><label>Fecha</label><input type="date" name="fecha" required></div>
+          <div class="field"><label>Proveedor</label><input type="text" name="proveedor" id="proveedorInput" required placeholder="Escribe o elige de la lista" autocomplete="off"></div>
+          <div class="field"><label>Producto</label><input type="text" name="producto" id="productoInputCompra" required placeholder="Ej. Termo 500ml" autocomplete="off"></div>
+          <div class="field"><label>Cantidad</label><input type="number" name="cantidad" min="1" step="1" required></div>
+          <div class="field"><label>Costo unitario</label><input type="number" name="costoUnitario" min="0" step="0.01" required></div>
+          <div class="field"><label>Envío / importación (total)</label><input type="number" name="costoEnvio" min="0" step="0.01" value="0"></div>
+          <div class="field"><label>Notas</label><input type="text" name="notas" placeholder="Opcional"></div>
+          <div class="field"><button class="btn" type="submit">Agregar compra</button></div>
+        </form>
+      </div>
+      <div class="panel">
+        <h2>Historial de compras</h2>
+        <div id="tablaCompras"></div>
+      </div>
+    </section>
+
+    <section class="view" id="view-envios">
+      <h1 class="pagetitle">Envíos a Amazon FBA</h1>
+      <p class="subtitle">Cuando envías mercancía de tu almacén a un centro logístico de Amazon, regístralo aquí.</p>
+      <div class="help">💡 <strong>FBA:</strong> envías el inventario a Amazon y ellos empacan/envían cada venta. <strong>FBM:</strong> tú guardas el inventario y envías cada pedido. Puedes manejar ambos con esta misma herramienta — el tipo se indica al registrar cada venta.</div>
+      <div class="panel">
+        <h2>Nuevo envío a FBA</h2>
+        <form class="formgrid" id="formEnvio" autocomplete="off">
+          <div class="field"><label>Fecha</label><input type="date" name="fecha" required></div>
+          <div class="field"><label>Producto</label><input type="text" name="producto" id="productoInputEnvio" required autocomplete="off"></div>
+          <div class="field"><label>Cantidad enviada</label><input type="number" name="cantidad" min="1" step="1" required></div>
+          <div class="field"><label>Notas</label><input type="text" name="notas" placeholder="Ej. # de envío / shipment ID"></div>
+          <div class="field"><button class="btn" type="submit">Registrar envío</button></div>
+        </form>
+      </div>
+      <div class="panel">
+        <h2>Historial de envíos</h2>
+        <div id="tablaEnvios"></div>
+      </div>
+    </section>
+
+    <section class="view" id="view-inventario">
+      <h1 class="pagetitle">Inventario y reposición</h1>
+      <p class="subtitle">Cuánto tienes en cada ubicación, cuántos días de inventario te quedan y cuándo reponer, por producto.</p>
+      <div class="panel">
+        <div id="tablaInventario"></div>
+        <div class="flow-legend">
+          <span><i class="dot" style="background:var(--ink-soft)"></i>En mi almacén</span>
+          <span><i class="dot" style="background:var(--info)"></i>En Amazon FBA</span>
+          <span><i class="dot" style="background:var(--positive)"></i>Vendido</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="view" id="view-ventas">
+      <h1 class="pagetitle">Ventas</h1>
+      <p class="subtitle">Registra cada venta con las comisiones y tarifas de Amazon. El costo se calcula con FIFO (lote más antiguo primero).</p>
+      <div class="panel">
+        <h2>Nueva venta</h2>
+        <form class="formgrid" id="formVenta" autocomplete="off">
+          <div class="field"><label>Fecha</label><input type="date" name="fecha" required></div>
+          <div class="field"><label>Producto</label><input type="text" name="producto" id="productoInputVenta" required autocomplete="off"></div>
+          <div class="field"><label>Cantidad</label><input type="number" name="cantidad" min="1" step="1" required></div>
+          <div class="field"><label>Precio de venta (c/u)</label><input type="number" name="precioUnitario" min="0" step="0.01" required></div>
+          <div class="field"><label>Tipo</label>
+            <select name="tipo"><option value="FBA">FBA (Amazon envía)</option><option value="FBM">FBM (yo envío)</option></select>
+          </div>
+          <div class="field"><label>Comisión Amazon (referral)</label><input type="number" name="comisionAmazon" min="0" step="0.01" value="0"></div>
+          <div class="field"><label>Tarifa fulfillment / envío</label><input type="number" name="tarifaFulfillment" min="0" step="0.01" value="0"></div>
+          <div class="field"><button class="btn" type="submit">Registrar venta</button></div>
+        </form>
+      </div>
+      <div class="panel">
+        <h2>Historial de ventas</h2>
+        <div id="tablaVentas"></div>
+      </div>
+    </section>
+
+    <section class="view" id="view-publicidad">
+      <h1 class="pagetitle">Publicidad (PPC)</h1>
+      <p class="subtitle">Gasto en anuncios de Amazon (Sponsored Products, etc.) por producto, para calcular tu ACOS y la utilidad real después de publicidad.</p>
+      <div class="cards" id="ppcCards"></div>
+      <div class="panel">
+        <h2>Nuevo gasto de publicidad</h2>
+        <form class="formgrid" id="formPPC" autocomplete="off">
+          <div class="field"><label>Fecha</label><input type="date" name="fecha" required></div>
+          <div class="field"><label>Producto</label><input type="text" name="producto" id="productoInputPPC" required autocomplete="off"></div>
+          <div class="field"><label>Monto gastado</label><input type="number" name="monto" min="0" step="0.01" required></div>
+          <div class="field"><label>Notas / campaña</label><input type="text" name="notas" placeholder="Opcional"></div>
+          <div class="field"><button class="btn" type="submit">Registrar gasto</button></div>
+        </form>
+      </div>
+      <div class="panel">
+        <h2>Historial de publicidad</h2>
+        <div id="tablaPPC"></div>
+      </div>
+    </section>
+
+    <section class="view" id="view-gastos">
+      <h1 class="pagetitle">Gastos generales</h1>
+      <p class="subtitle">Gastos que no son de un producto en particular: suscripciones, empaque, oficina, etc.</p>
+      <div class="panel">
+        <h2>Nuevo gasto</h2>
+        <form class="formgrid" id="formGasto" autocomplete="off">
+          <div class="field"><label>Fecha</label><input type="date" name="fecha" required></div>
+          <div class="field"><label>Categoría</label>
+            <input type="text" name="categoria" id="categoriaInput" required autocomplete="off">
+          </div>
+          <div class="field"><label>Descripción</label><input type="text" name="descripcion" placeholder="Opcional"></div>
+          <div class="field"><label>Monto</label><input type="number" name="monto" min="0" step="0.01" required></div>
+          <div class="field"><button class="btn" type="submit">Registrar gasto</button></div>
+        </form>
+      </div>
+      <div class="panel">
+        <h2>Historial de gastos</h2>
+        <div id="tablaGastos"></div>
+      </div>
+    </section>
+
+    <section class="view" id="view-reportes">
+      <h1 class="pagetitle">Estado de resultados</h1>
+      <p class="subtitle">Tu utilidad real: ingresos, comisiones de Amazon, costo de mercancía vendida (FIFO), publicidad y gastos operativos.</p>
+      <div class="rangebar">
+        <div class="field"><label>Periodo</label>
+          <select class="rangepicker" id="rangeSelect">
+            <option value="mes">Este mes</option>
+            <option value="mesPasado">Mes pasado</option>
+            <option value="anio">Este año</option>
+            <option value="todo">Todo el tiempo</option>
+            <option value="custom">Personalizado</option>
+          </select>
+        </div>
+        <div class="field" id="customFrom" style="display:none"><label>Desde</label><input type="date" id="fromDate"></div>
+        <div class="field" id="customTo" style="display:none"><label>Hasta</label><input type="date" id="toDate"></div>
+      </div>
+      <div class="panel">
+        <h2>Estado de resultados</h2>
+        <div class="statement" id="statement"></div>
+      </div>
+      <div class="panel">
+        <h2>Utilidad por producto <span class="muted">— en el periodo seleccionado</span></h2>
+        <div id="tablaUtilidadProducto"></div>
+      </div>
+      <div class="help">⚠️ Esta herramienta te da contabilidad gerencial (control de costos, ventas y utilidad) para decisiones del día a día. Para impuestos o estados financieros formales, comparte estos reportes con un contador — las reglas fiscales varían según tu país.</div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+const NAV = [
+  {id:'dashboard', label:'Resumen', icon:'🏠'},
+  {id:'proveedores', label:'Proveedores', icon:'🤝'},
+  {id:'compras', label:'Compras', icon:'🛒'},
+  {id:'envios', label:'Envíos a FBA', icon:'🚚'},
+  {id:'inventario', label:'Inventario', icon:'📦'},
+  {id:'ventas', label:'Ventas', icon:'💵'},
+  {id:'publicidad', label:'Publicidad (PPC)', icon:'📣'},
+  {id:'gastos', label:'Gastos', icon:'🧾'},
+  {id:'reportes', label:'Reportes', icon:'📊'},
+];
+
+let state = {
+  settings:{currency:'$', leadTimeDays:21, velocityWindowDays:30},
+  purchases:[], shipments:[], sales:[], expenses:[], adSpend:[], suppliers:[]
+};
+let saveTimer=null;
+
+function todayStr(){return new Date().toISOString().slice(0,10);}
+function uid(){return Date.now().toString(36)+Math.random().toString(36).slice(2,8);}
+function key(name){return (name||'').trim().toLowerCase();}
+function displayName(k, arr, field){
+  for(const item of arr){ if(key(item[field])===k) return item[field].trim(); }
+  return k;
+}
+function money(n){
+  const c = state.settings.currency || '$';
+  const num = Number(n)||0;
+  const sign = num<0 ? '-' : '';
+  return sign + c + Math.abs(num).toLocaleString('es-ES',{minimumFractionDigits:2,maximumFractionDigits:2});
+}
+function esc(s){return (s===undefined||s===null)?'':String(s).replace(/[&<>"']/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));}
+
+async function loadData(){
+  try{
+    const res = await window.storage.get('contabilidad-amazon-data', false);
+    if(res && res.value){
+      const parsed = JSON.parse(res.value);
+      state = Object.assign({settings:{currency:'$',leadTimeDays:21,velocityWindowDays:30},purchases:[],shipments:[],sales:[],expenses:[],adSpend:[],suppliers:[]}, parsed);
+      state.settings = Object.assign({currency:'$',leadTimeDays:21,velocityWindowDays:30}, state.settings);
+      if(!state.adSpend) state.adSpend = [];
+      if(!state.suppliers) state.suppliers = [];
+    }
+  }catch(e){ /* primera vez, sin datos aún */ }
+}
+function saveData(){
+  state.updatedAt = Date.now();
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(async ()=>{
+    try{ await window.storage.set('contabilidad-amazon-data', JSON.stringify(state), false); }
+    catch(e){ /* window.storage no disponible fuera de Claude */ }
+  }, 150);
+}
+
+/* ---------- NAV ---------- */
+function buildNav(){
+  const nav = document.getElementById('nav');
+  nav.innerHTML = '';
+  NAV.forEach(item=>{
+    const btn = document.createElement('button');
+    btn.className='navlink'; btn.dataset.view=item.id;
+    btn.innerHTML = `<span class="ic">${item.icon}</span> ${item.label}<span class="navbadge" id="badge-${item.id}" style="display:none;"></span>`;
+    btn.onclick = ()=>switchView(item.id);
+    nav.appendChild(btn);
+  });
+}
+function switchView(id){
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('visible'));
+  document.getElementById('view-'+id).classList.add('visible');
+  document.querySelectorAll('.navlink').forEach(b=>b.classList.toggle('active', b.dataset.view===id));
+  renderAll();
+}
+
+/* ---------- FIFO COSTING ---------- */
+function computeFIFO(){
+  const lotsByProduct = {};
+  const cogsBySale = {};
+  const purchasesByProduct = {};
+  state.purchases.forEach(p=>{
+    const k = key(p.producto);
+    if(!purchasesByProduct[k]) purchasesByProduct[k]=[];
+    const unitCost = (Number(p.costoUnitario)||0) + ((Number(p.costoEnvio)||0)/(Number(p.cantidad)||1));
+    purchasesByProduct[k].push({fecha:p.fecha, qty:Number(p.cantidad)||0, unitCost});
+  });
+  Object.keys(purchasesByProduct).forEach(k=>{
+    lotsByProduct[k] = purchasesByProduct[k].slice()
+      .sort((a,b)=> a.fecha<b.fecha?-1:a.fecha>b.fecha?1:0)
+      .map(l=>({qty:l.qty, unitCost:l.unitCost}));
+  });
+  const salesSorted = state.sales.slice().sort((a,b)=> a.fecha<b.fecha?-1:a.fecha>b.fecha?1:0);
+  salesSorted.forEach(v=>{
+    const k = key(v.producto);
+    let need = Number(v.cantidad)||0;
+    let cogs = 0, lastUnitCost = 0;
+    const lots = lotsByProduct[k] || (lotsByProduct[k]=[]);
+    while(need>0.0000001 && lots.length>0){
+      const lot = lots[0];
+      const take = Math.min(need, lot.qty);
+      cogs += take*lot.unitCost;
+      lastUnitCost = lot.unitCost;
+      lot.qty -= take; need -= take;
+      if(lot.qty<=0.0000001) lots.shift();
+    }
+    if(need>0.0000001){ cogs += need*lastUnitCost; }
+    cogsBySale[v.id] = cogs;
+  });
+  return {lotsByProduct, cogsBySale};
+}
+
+function productStats(){
+  const {lotsByProduct} = computeFIFO();
+  const products = {};
+  function ensure(k){
+    if(!products[k]) products[k] = {key:k, purchasedQty:0, purchasedCost:0, shippedQty:0, soldFBA:0, soldFBM:0};
+    return products[k];
+  }
+  state.purchases.forEach(p=>{
+    const k = key(p.producto); const s = ensure(k);
+    s.purchasedQty += Number(p.cantidad)||0;
+    s.purchasedCost += (Number(p.cantidad)||0)*(Number(p.costoUnitario)||0) + (Number(p.costoEnvio)||0);
+  });
+  state.shipments.forEach(sh=>{
+    const k = key(sh.producto); const s = ensure(k);
+    s.shippedQty += Number(sh.cantidad)||0;
+  });
+  state.sales.forEach(v=>{
+    const k = key(v.producto); const s = ensure(k);
+    if(v.tipo==='FBA') s.soldFBA += Number(v.cantidad)||0;
+    else s.soldFBM += Number(v.cantidad)||0;
+  });
+  Object.values(products).forEach(s=>{
+    s.name = displayName(s.key, state.purchases, 'producto') || s.key;
+    s.soldTotal = s.soldFBA + s.soldFBM;
+    s.enAlmacen = s.purchasedQty - s.shippedQty - s.soldFBM;
+    s.enFBA = s.shippedQty - s.soldFBA;
+    const lots = lotsByProduct[s.key] || [];
+    const remainingQty = lots.reduce((a,l)=>a+l.qty,0);
+    const remainingValue = lots.reduce((a,l)=>a+l.qty*l.unitCost,0);
+    s.avgCost = remainingQty>0 ? remainingValue/remainingQty : (s.purchasedQty>0 ? s.purchasedCost/s.purchasedQty : 0);
+    s.inventoryValue = remainingValue;
+  });
+  return products;
+}
+
+function inRange(dateStr, from, to){
+  if(!dateStr) return false;
+  if(from && dateStr<from) return false;
+  if(to && dateStr>to) return false;
+  return true;
+}
+function getRange(){
+  const sel = document.getElementById('rangeSelect').value;
+  const now = new Date();
+  const pad=n=>String(n).padStart(2,'0');
+  if(sel==='mes'){
+    return {from:`${now.getFullYear()}-${pad(now.getMonth()+1)}-01`, to: todayStr()};
+  }
+  if(sel==='mesPasado'){
+    const d = new Date(now.getFullYear(), now.getMonth()-1, 1);
+    const lastDay = new Date(now.getFullYear(), now.getMonth(), 0).getDate();
+    return {from:`${d.getFullYear()}-${pad(d.getMonth()+1)}-01`, to:`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(lastDay)}`};
+  }
+  if(sel==='anio'){ return {from:`${now.getFullYear()}-01-01`, to: todayStr()}; }
+  if(sel==='custom'){ return {from: document.getElementById('fromDate').value || null, to: document.getElementById('toDate').value || null}; }
+  return {from:null, to:null};
+}
+
+function statementFor(from, to){
+  const stats = productStats();
+  const {cogsBySale} = computeFIFO();
+  let ingresos=0, comisiones=0, cogs=0, gastos=0, ppc=0;
+  const porProducto = {};
+  state.sales.forEach(v=>{
+    if(!inRange(v.fecha, from, to)) return;
+    const bruto = (Number(v.cantidad)||0)*(Number(v.precioUnitario)||0);
+    const fees = (Number(v.comisionAmazon)||0)+(Number(v.tarifaFulfillment)||0);
+    const k = key(v.producto);
+    const cogsLine = cogsBySale[v.id] || 0;
+    ingresos += bruto; comisiones += fees; cogs += cogsLine;
+    if(!porProducto[k]) porProducto[k] = {name: stats[k]?stats[k].name:v.producto, ingresos:0, utilidad:0, unidades:0, ppc:0};
+    porProducto[k].ingresos += bruto;
+    porProducto[k].unidades += Number(v.cantidad)||0;
+    porProducto[k].utilidad += (bruto - fees - cogsLine);
+  });
+  state.expenses.forEach(g=>{ if(inRange(g.fecha, from, to)) gastos += Number(g.monto)||0; });
+  state.adSpend.forEach(a=>{
+    if(!inRange(a.fecha, from, to)) return;
+    ppc += Number(a.monto)||0;
+    const k = key(a.producto);
+    if(!porProducto[k]) porProducto[k] = {name: stats[k]?stats[k].name:a.producto, ingresos:0, utilidad:0, unidades:0, ppc:0};
+    porProducto[k].ppc += Number(a.monto)||0;
+    porProducto[k].utilidad -= Number(a.monto)||0;
+  });
+  const ingresoNetoAmazon = ingresos - comisiones;
+  const utilidadBruta = ingresoNetoAmazon - cogs;
+  const utilidadNeta = utilidadBruta - ppc - gastos;
+  return {ingresos, comisiones, ingresoNetoAmazon, cogs, utilidadBruta, ppc, gastos, utilidadNeta, porProducto};
+}
+
+/* ---------- RESTOCK ALERTS ---------- */
+function restockInfo(stats){
+  const windowDays = Number(state.settings.velocityWindowDays)||30;
+  const leadTime = Number(state.settings.leadTimeDays)||21;
+  const cutoff = new Date(); cutoff.setDate(cutoff.getDate()-windowDays);
+  const cutoffStr = cutoff.toISOString().slice(0,10);
+  const soldRecent = {};
+  state.sales.forEach(v=>{
+    if(v.fecha>=cutoffStr){ const k=key(v.producto); soldRecent[k]=(soldRecent[k]||0)+(Number(v.cantidad)||0); }
+  });
+  const result = {};
+  Object.values(stats).forEach(s=>{
+    const recentQty = soldRecent[s.key]||0;
+    const dailyRate = recentQty/windowDays;
+    const disponible = Math.max(s.enAlmacen,0)+Math.max(s.enFBA,0);
+    let diasRestantes = dailyRate>0 ? disponible/dailyRate : (disponible>0? Infinity : 0);
+    let estado='ok', label='OK';
+    if(dailyRate===0){ estado='sinventas'; label = disponible>0 ? 'Sin ventas recientes' : 'Sin stock ni ventas'; }
+    else if(diasRestantes < leadTime){ estado='urgente'; label='Reponer urgente'; }
+    else if(diasRestantes < leadTime*1.5){ estado='pronto'; label='Reponer pronto'; }
+    result[s.key] = {dailyRate, diasRestantes, estado, label};
+  });
+  return result;
+}
+
+/* ---------- TREND CHART (SVG, sin librerías) ---------- */
+function monthKey(d){return (d||'').slice(0,7);}
+function buildMonthlySeries(monthsBack){
+  const {cogsBySale} = computeFIFO();
+  const now = new Date();
+  const months = [];
+  for(let i=monthsBack-1;i>=0;i--){
+    const d = new Date(now.getFullYear(), now.getMonth()-i, 1);
+    months.push(`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`);
+  }
+  const idx = {}; months.forEach((m,i)=>idx[m]=i);
+  const data = months.map(m=>({m, ingresos:0, utilidad:0}));
+  state.sales.forEach(v=>{
+    const mk = monthKey(v.fecha); if(idx[mk]===undefined) return;
+    const bruto = (Number(v.cantidad)||0)*(Number(v.precioUnitario)||0);
+    const fees = (Number(v.comisionAmazon)||0)+(Number(v.tarifaFulfillment)||0);
+    const cogs = cogsBySale[v.id]||0;
+    data[idx[mk]].ingresos += bruto;
+    data[idx[mk]].utilidad += (bruto-fees-cogs);
+  });
+  state.adSpend.forEach(a=>{ const mk=monthKey(a.fecha); if(idx[mk]!==undefined) data[idx[mk]].utilidad -= Number(a.monto)||0; });
+  state.expenses.forEach(g=>{ const mk=monthKey(g.fecha); if(idx[mk]!==undefined) data[idx[mk]].utilidad -= Number(g.monto)||0; });
+  return data;
+}
+function renderTrendChart(){
+  const data = buildMonthlySeries(6);
+  const w=680,h=220,pad=36;
+  const maxVal = Math.max(1, ...data.map(d=>Math.max(d.ingresos, Math.abs(d.utilidad))));
+  const bw = (w-pad*2)/data.length;
+  const scaleY = v => (h-pad*2)*(v/maxVal);
+  let bars='';
+  data.forEach((d,i)=>{
+    const x = pad + i*bw;
+    const hIng = scaleY(d.ingresos), hUtil = scaleY(Math.abs(d.utilidad));
+    const yIng = h-pad-hIng, yUtil = h-pad-hUtil;
+    const barW = bw*0.32;
+    bars += `<rect x="${x+bw*0.12}" y="${yIng}" width="${barW}" height="${hIng}" fill="#C97C05" rx="2"></rect>`;
+    bars += `<rect x="${x+bw*0.52}" y="${d.utilidad>=0?yUtil:h-pad}" width="${barW}" height="${hUtil}" fill="${d.utilidad>=0?'#1F7A5C':'#C1432D'}" rx="2"></rect>`;
+    bars += `<text x="${x+bw/2}" y="${h-pad+16}" font-size="10" fill="#57646F" text-anchor="middle" font-family="Inter">${d.m.slice(5)}/${d.m.slice(2,4)}</text>`;
+  });
+  document.getElementById('trendChart').innerHTML = `<svg viewBox="0 0 ${w} ${h}" style="width:100%;height:auto;max-width:680px;">${bars}<line x1="${pad}" y1="${h-pad}" x2="${w-pad}" y2="${h-pad}" stroke="#DBDFD7"/></svg>
+  <div class="flow-legend"><span><i class="dot" style="background:#C97C05"></i>Ingresos</span><span><i class="dot" style="background:#1F7A5C"></i>Utilidad neta (+)</span><span><i class="dot" style="background:#C1432D"></i>Utilidad neta (-)</span></div>`;
+}
+
+/* ---------- RENDER: DASHBOARD ---------- */
+function renderDashboard(){
+  const now = new Date();
+  const pad=n=>String(n).padStart(2,'0');
+  const fromMes = `${now.getFullYear()}-${pad(now.getMonth()+1)}-01`;
+  const mes = statementFor(fromMes, todayStr());
+  const total = statementFor(null, null);
+  const stats = productStats();
+  const invValor = Object.values(stats).reduce((a,s)=>a+s.inventoryValue,0);
+  const totalInvertido = state.purchases.reduce((a,p)=>a+((Number(p.cantidad)||0)*(Number(p.costoUnitario)||0)+(Number(p.costoEnvio)||0)),0);
+  const restock = restockInfo(stats);
+  const urgentes = Object.values(stats).filter(s=>restock[s.key] && restock[s.key].estado==='urgente');
+  const pronto = Object.values(stats).filter(s=>restock[s.key] && restock[s.key].estado==='pronto');
+
+  document.getElementById('dashCards').innerHTML = `
+    <div class="card accent"><div class="label">Ingresos este mes</div><div class="value">${money(mes.ingresos)}</div><div class="foot">Ventas brutas</div></div>
+    <div class="card ${mes.utilidadNeta>=0?'pos':'neg'}"><div class="label">Utilidad neta este mes</div><div class="value">${money(mes.utilidadNeta)}</div><div class="foot">Después de comisiones, COGS, PPC y gastos</div></div>
+    <div class="card"><div class="label">Valor de inventario actual</div><div class="value">${money(invValor)}</div><div class="foot">FIFO</div></div>
+    <div class="card"><div class="label">Total invertido en compras</div><div class="value">${money(totalInvertido)}</div><div class="foot">Histórico</div></div>
+    <div class="card ${total.utilidadNeta>=0?'pos':'neg'}"><div class="label">Utilidad neta histórica</div><div class="value">${money(total.utilidadNeta)}</div><div class="foot">Desde el inicio</div></div>
+    <div class="card warnc"><div class="label">Productos por reponer</div><div class="value">${urgentes.length+pronto.length}</div><div class="foot">${urgentes.length} urgentes, ${pronto.length} pronto</div></div>
+  `;
+
+  const badge = document.getElementById('badge-inventario');
+  if(urgentes.length>0){ badge.style.display='inline-block'; badge.textContent = urgentes.length; } else { badge.style.display='none'; }
+
+  const alertList = document.getElementById('alertList');
+  const allAlerts = [...urgentes.map(s=>({...s,...restock[s.key]})), ...pronto.map(s=>({...s,...restock[s.key]}))];
+  if(allAlerts.length===0){
+    alertList.innerHTML = '<div class="empty">Todo en orden — ningún producto necesita reposición pronto.</div>';
+  } else {
+    alertList.innerHTML = allAlerts.map(a=>`<div class="alertbox ${a.estado}"><span><strong>${esc(a.name)}</strong> — ${a.diasRestantes===Infinity?'sin ventas recientes':Math.floor(a.diasRestantes)+' días de inventario restante'}</span><span class="pill ${a.estado}">${a.label}</span></div>`).join('');
+  }
+
+  renderTrendChart();
+
+  const ranked = Object.values(total.porProducto).sort((a,b)=>b.utilidad-a.utilidad).slice(0,6);
+  const el = document.getElementById('dashTopProducts');
+  if(ranked.length===0){ el.innerHTML = '<div class="empty">Aún no tienes ventas registradas.</div>'; return; }
+  el.innerHTML = `<table><thead><tr><th>Producto</th><th class="num">Unidades vendidas</th><th class="num">Ingresos</th><th class="num">Utilidad</th></tr></thead><tbody>
+    ${ranked.map(p=>`<tr><td>${esc(p.name)}</td><td class="num">${p.unidades}</td><td class="num">${money(p.ingresos)}</td><td class="num" style="color:${p.utilidad>=0?'var(--positive)':'var(--negative)'}">${money(p.utilidad)}</td></tr>`).join('')}
+  </tbody></table>`;
+}
+
+/* ---------- RENDER: COMPRAS ---------- */
+function renderCompras(){
+  const el = document.getElementById('tablaCompras');
+  if(state.purchases.length===0){ el.innerHTML='<div class="empty">Aún no registras compras.</div>'; return; }
+  const rows = [...state.purchases].sort((a,b)=>b.fecha.localeCompare(a.fecha));
+  el.innerHTML = `<table><thead><tr><th>Fecha</th><th>Proveedor</th><th>Producto</th><th class="num">Cant.</th><th class="num">Costo unit.</th><th class="num">Envío</th><th class="num">Total</th><th></th></tr></thead><tbody>
+    ${rows.map(p=>{
+      const total = (Number(p.cantidad)||0)*(Number(p.costoUnitario)||0)+(Number(p.costoEnvio)||0);
+      return `<tr><td>${p.fecha}</td><td>${esc(p.proveedor)}</td><td>${esc(p.producto)}</td><td class="num">${p.cantidad}</td><td class="num">${money(p.costoUnitario)}</td><td class="num">${money(p.costoEnvio)}</td><td class="num">${money(total)}</td><td><button class="del" onclick="removeItem('purchases','${p.id}')">✕</button></td></tr>`;
+    }).join('')}
+  </tbody></table>`;
+}
+
+/* ---------- RENDER: ENVIOS ---------- */
+function renderEnvios(){
+  const el = document.getElementById('tablaEnvios');
+  if(state.shipments.length===0){ el.innerHTML='<div class="empty">Aún no registras envíos a FBA.</div>'; return; }
+  const rows = [...state.shipments].sort((a,b)=>b.fecha.localeCompare(a.fecha));
+  el.innerHTML = `<table><thead><tr><th>Fecha</th><th>Producto</th><th class="num">Cantidad</th><th>Notas</th><th></th></tr></thead><tbody>
+    ${rows.map(s=>`<tr><td>${s.fecha}</td><td>${esc(s.producto)}</td><td class="num">${s.cantidad}</td><td>${esc(s.notas||'')}</td><td><button class="del" onclick="removeItem('shipments','${s.id}')">✕</button></td></tr>`).join('')}
+  </tbody></table>`;
+}
+
+/* ---------- RENDER: INVENTARIO ---------- */
+function renderInventario(){
+  const stats = Object.values(productStats()).sort((a,b)=>a.name.localeCompare(b.name));
+  const restock = restockInfo(productStats());
+  const el = document.getElementById('tablaInventario');
+  if(stats.length===0){ el.innerHTML='<div class="empty">Registra una compra para empezar a ver tu inventario.</div>'; return; }
+  el.innerHTML = `<table><thead><tr><th>Producto</th><th class="num">Comprado</th><th class="num">Almacén</th><th class="num">En FBA</th><th class="num">Vendido</th><th>Flujo</th><th class="num">Días restantes</th><th>Estado</th><th class="num">Costo FIFO</th><th class="num">Valor inv.</th></tr></thead><tbody>
+    ${stats.map(s=>{
+      const almacen = Math.max(s.enAlmacen,0), fba = Math.max(s.enFBA,0), vendido = Math.max(s.soldTotal,0);
+      const tot = almacen+fba+vendido || 1;
+      const r = restock[s.key] || {estado:'ok', label:'OK', diasRestantes:Infinity};
+      return `<tr>
+        <td>${esc(s.name)}</td>
+        <td class="num">${s.purchasedQty}</td>
+        <td class="num" style="${s.enAlmacen<0?'color:var(--negative)':''}">${s.enAlmacen}</td>
+        <td class="num" style="${s.enFBA<0?'color:var(--negative)':''}">${s.enFBA}</td>
+        <td class="num">${s.soldTotal}</td>
+        <td><div class="flow"><span class="seg-almacen" style="width:${almacen/tot*100}%"></span><span class="seg-fba" style="width:${fba/tot*100}%"></span><span class="seg-vendido" style="width:${vendido/tot*100}%"></span></div></td>
+        <td class="num">${r.diasRestantes===Infinity?'—':Math.floor(r.diasRestantes)}</td>
+        <td><span class="pill ${r.estado}">${r.label}</span></td>
+        <td class="num">${money(s.avgCost)}</td>
+        <td class="num">${money(s.inventoryValue)}</td>
+      </tr>`;
+    }).join('')}
+  </tbody></table>`;
+}
+
+/* ---------- RENDER: VENTAS ---------- */
+function renderVentas(){
+  const {cogsBySale} = computeFIFO();
+  const el = document.getElementById('tablaVentas');
+  if(state.sales.length===0){ el.innerHTML='<div class="empty">Aún no registras ventas.</div>'; return; }
+  const rows = [...state.sales].sort((a,b)=>b.fecha.localeCompare(a.fecha));
+  el.innerHTML = `<table><thead><tr><th>Fecha</th><th>Producto</th><th class="num">Cant.</th><th class="num">Precio</th><th>Tipo</th><th class="num">Comisión</th><th class="num">Fulfillment</th><th class="num">COGS (FIFO)</th><th class="num">Utilidad</th><th></th></tr></thead><tbody>
+    ${rows.map(v=>{
+      const bruto=(Number(v.cantidad)||0)*(Number(v.precioUnitario)||0);
+      const fees=(Number(v.comisionAmazon)||0)+(Number(v.tarifaFulfillment)||0);
+      const cogs = cogsBySale[v.id] || 0;
+      const util = bruto-fees-cogs;
+      return `<tr><td>${v.fecha}</td><td>${esc(v.producto)}</td><td class="num">${v.cantidad}</td><td class="num">${money(v.precioUnitario)}</td><td><span class="pill ${v.tipo==='FBA'?'fba':'fbm'}">${v.tipo}</span></td><td class="num">${money(v.comisionAmazon)}</td><td class="num">${money(v.tarifaFulfillment)}</td><td class="num">${money(cogs)}</td><td class="num" style="color:${util>=0?'var(--positive)':'var(--negative)'}">${money(util)}</td><td><button class="del" onclick="removeItem('sales','${v.id}')">✕</button></td></tr>`;
+    }).join('')}
+  </tbody></table>`;
+}
+
+/* ---------- RENDER: PPC ---------- */
+function renderPPC(){
+  const total = statementFor(null,null);
+  const now = new Date(); const pad=n=>String(n).padStart(2,'0');
+  const mes = statementFor(`${now.getFullYear()}-${pad(now.getMonth()+1)}-01`, todayStr());
+  const acosTotal = mes.ingresos>0 ? (mes.ppc/mes.ingresos*100) : 0;
+  document.getElementById('ppcCards').innerHTML = `
+    <div class="card accent"><div class="label">Gasto PPC este mes</div><div class="value">${money(mes.ppc)}</div></div>
+    <div class="card"><div class="label">ACOS este mes</div><div class="value">${acosTotal.toFixed(1)}%</div><div class="foot">Gasto publicidad / ingresos</div></div>
+    <div class="card"><div class="label">Gasto PPC histórico</div><div class="value">${money(total.ppc)}</div></div>
+  `;
+  const el = document.getElementById('tablaPPC');
+  if(state.adSpend.length===0){ el.innerHTML='<div class="empty">Aún no registras gastos de publicidad.</div>'; return; }
+  const rows = [...state.adSpend].sort((a,b)=>b.fecha.localeCompare(a.fecha));
+  el.innerHTML = `<table><thead><tr><th>Fecha</th><th>Producto</th><th class="num">Monto</th><th>Notas</th><th></th></tr></thead><tbody>
+    ${rows.map(a=>`<tr><td>${a.fecha}</td><td>${esc(a.producto)}</td><td class="num">${money(a.monto)}</td><td>${esc(a.notas||'')}</td><td><button class="del" onclick="removeItem('adSpend','${a.id}')">✕</button></td></tr>`).join('')}
+  </tbody></table>`;
+}
+
+/* ---------- RENDER: GASTOS ---------- */
+function renderGastos(){
+  const el = document.getElementById('tablaGastos');
+  if(state.expenses.length===0){ el.innerHTML='<div class="empty">Aún no registras gastos.</div>'; return; }
+  const rows = [...state.expenses].sort((a,b)=>b.fecha.localeCompare(a.fecha));
+  el.innerHTML = `<table><thead><tr><th>Fecha</th><th>Categoría</th><th>Descripción</th><th class="num">Monto</th><th></th></tr></thead><tbody>
+    ${rows.map(g=>`<tr><td>${g.fecha}</td><td>${esc(g.categoria)}</td><td>${esc(g.descripcion||'')}</td><td class="num">${money(g.monto)}</td><td><button class="del" onclick="removeItem('expenses','${g.id}')">✕</button></td></tr>`).join('')}
+  </tbody></table>`;
+}
+
+/* ---------- RENDER: REPORTES ---------- */
+function renderReportes(){
+  const {from,to} = getRange();
+  const st = statementFor(from, to);
+  document.getElementById('statement').innerHTML = `
+    <div class="stline"><span>Ingresos por ventas</span><span class="amt">${money(st.ingresos)}</span></div>
+    <div class="stline sub"><span>(–) Comisiones y tarifas de Amazon</span><span class="amt neg">-${money(st.comisiones)}</span></div>
+    <div class="stline"><span>Ingreso neto de Amazon</span><span class="amt">${money(st.ingresoNetoAmazon)}</span></div>
+    <div class="stline sub"><span>(–) Costo de mercancía vendida (FIFO)</span><span class="amt neg">-${money(st.cogs)}</span></div>
+    <div class="stline"><span><strong>Utilidad bruta</strong></span><span class="amt pos">${money(st.utilidadBruta)}</span></div>
+    <div class="stline sub"><span>(–) Publicidad (PPC)</span><span class="amt neg">-${money(st.ppc)}</span></div>
+    <div class="stline sub"><span>(–) Gastos operativos</span><span class="amt neg">-${money(st.gastos)}</span></div>
+    <div class="stline total"><span>Utilidad neta</span><span class="amt ${st.utilidadNeta>=0?'pos':'neg'}">${money(st.utilidadNeta)}</span></div>
+  `;
+  const ranked = Object.values(st.porProducto).sort((a,b)=>b.utilidad-a.utilidad);
+  const el = document.getElementById('tablaUtilidadProducto');
+  if(ranked.length===0){ el.innerHTML='<div class="empty">No hay ventas en este periodo.</div>'; return; }
+  el.innerHTML = `<table><thead><tr><th>Producto</th><th class="num">Unidades</th><th class="num">Ingresos</th><th class="num">Gasto PPC</th><th class="num">ACOS</th><th class="num">Utilidad</th><th class="num">Margen</th></tr></thead><tbody>
+    ${ranked.map(p=>`<tr><td>${esc(p.name)}</td><td class="num">${p.unidades}</td><td class="num">${money(p.ingresos)}</td><td class="num">${money(p.ppc||0)}</td><td class="num">${p.ingresos>0?((p.ppc||0)/p.ingresos*100).toFixed(1)+'%':'—'}</td><td class="num" style="color:${p.utilidad>=0?'var(--positive)':'var(--negative)'}">${money(p.utilidad)}</td><td class="num">${p.ingresos>0?((p.utilidad/p.ingresos*100).toFixed(1)+'%'):'—'}</td></tr>`).join('')}
+  </tbody></table>`;
+}
+
+/* ---------- AUTOCOMPLETADO PROPIO (reemplaza <datalist>, que iOS Safari no soporta) ---------- */
+function getProductoOptions(){
+  const s = new Set();
+  state.purchases.forEach(p=>s.add(p.producto));
+  state.shipments.forEach(x=>s.add(x.producto));
+  state.sales.forEach(x=>s.add(x.producto));
+  state.adSpend.forEach(x=>s.add(x.producto));
+  return [...s].filter(Boolean);
+}
+function getProveedorOptions(){
+  const confirmados = state.suppliers.filter(s=>s.estado==='activo').map(s=>s.nombre);
+  const otros = new Set();
+  state.purchases.forEach(p=>otros.add(p.proveedor));
+  state.suppliers.forEach(s=>otros.add(s.nombre));
+  confirmados.forEach(n=>otros.delete(n));
+  return [...confirmados.filter(Boolean), ...[...otros].filter(Boolean)];
+}
+function getCategoriaOptions(){
+  const base = ['Suscripción Amazon Seller','Software / herramientas','Empaque y etiquetas','Almacenamiento externo','Transporte / logística','Muestras / calidad','Otros'];
+  const usadas = new Set(state.expenses.map(g=>g.categoria).filter(Boolean));
+  base.forEach(b=>usadas.delete(b));
+  return [...base, ...usadas];
+}
+
+function attachAutocomplete(input, getOptions){
+  if(!input || input.dataset.acBound) return;
+  input.dataset.acBound = '1';
+  const wrap = document.createElement('div');
+  wrap.className = 'ac-wrap';
+  input.parentNode.insertBefore(wrap, input);
+  wrap.appendChild(input);
+  const list = document.createElement('div');
+  list.className = 'ac-list';
+  wrap.appendChild(list);
+
+  function render(){
+    const q = input.value.trim().toLowerCase();
+    const opts = getOptions().filter(o=>!q || o.toLowerCase().includes(q)).slice(0,25);
+    if(opts.length===0){ list.innerHTML = q ? '<div class="ac-empty">Sin coincidencias — se guardará como nuevo</div>' : ''; }
+    else { list.innerHTML = opts.map(o=>`<div class="ac-item">${esc(o)}</div>`).join(''); }
+    list.classList.toggle('show', opts.length>0 || !!q);
+  }
+  input.addEventListener('focus', render);
+  input.addEventListener('input', render);
+  input.addEventListener('blur', ()=> setTimeout(()=>list.classList.remove('show'), 180));
+  list.addEventListener('mousedown', e=>{
+    const item = e.target.closest('.ac-item');
+    if(item){ input.value = item.textContent; list.classList.remove('show'); }
+  });
+}
+function initAutocompletes(){
+  attachAutocomplete(document.getElementById('proveedorInput'), getProveedorOptions);
+  attachAutocomplete(document.getElementById('productoInputCompra'), getProductoOptions);
+  attachAutocomplete(document.getElementById('productoInputEnvio'), getProductoOptions);
+  attachAutocomplete(document.getElementById('productoInputVenta'), getProductoOptions);
+  attachAutocomplete(document.getElementById('productoInputPPC'), getProductoOptions);
+  attachAutocomplete(document.getElementById('categoriaInput'), getCategoriaOptions);
+}
+
+/* ---------- CRUD ---------- */
+function removeItem(coll, id){
+  state[coll] = state[coll].filter(x=>x.id!==id);
+  saveData(); renderAll();
+}
+function bindForm(formId, coll, extra, validate){
+  document.getElementById(formId).addEventListener('submit', e=>{
+    e.preventDefault();
+    const fd = new FormData(e.target);
+    const obj = {id: uid()};
+    for(const [k,v] of fd.entries()) obj[k]=v;
+    if(validate && validate(obj)===false) return;
+    if(extra) extra(obj);
+    state[coll].push(obj);
+    saveData();
+    e.target.reset();
+    const dateField = e.target.querySelector('input[name=fecha]');
+    if(dateField) dateField.value = todayStr();
+    renderAll();
+  });
+}
+
+/* ---------- RENDER ALL ---------- */
+function renderAll(){
+  renderDashboard();
+  renderProveedores();
+  renderCompras();
+  renderEnvios();
+  renderInventario();
+  renderVentas();
+  renderPPC();
+  renderGastos();
+  renderReportes();
+}
+
+/* ---------- RENDER: PROVEEDORES ---------- */
+let supplierFilter = 'todos';
+const ESTADO_LABELS = {contactar:'Por contactar', contactado:'Contactado', negociando:'Negociando', activo:'Activo', descartado:'Descartado'};
+function renderProveedores(){
+  const countEl = document.getElementById('supplierCount');
+  const filtersEl = document.getElementById('supplierFilters');
+  const listEl = document.getElementById('listaProveedores');
+  if(!countEl) return;
+
+  const counts = {todos: state.suppliers.length};
+  Object.keys(ESTADO_LABELS).forEach(k=>counts[k] = state.suppliers.filter(s=>s.estado===k).length);
+  filtersEl.innerHTML = `<button class="${supplierFilter==='todos'?'active':''}" data-f="todos">Todos (${counts.todos})</button>` +
+    Object.keys(ESTADO_LABELS).map(k=>`<button class="${supplierFilter===k?'active':''}" data-f="${k}">${ESTADO_LABELS[k]} (${counts[k]})</button>`).join('');
+  filtersEl.querySelectorAll('button').forEach(b=>b.onclick=()=>{ supplierFilter=b.dataset.f; renderProveedores(); });
+
+  countEl.textContent = `— ${counts.todos} en total`;
+  const list = supplierFilter==='todos' ? state.suppliers : state.suppliers.filter(s=>s.estado===supplierFilter);
+  if(list.length===0){ listEl.innerHTML = '<div class="empty">No hay proveedores en esta categoría todavía. Agrega el primero arriba.</div>'; return; }
+
+  listEl.innerHTML = list.slice().reverse().map(s=>{
+    const contactLines = [];
+    if(s.contacto) contactLines.push(`👤 ${esc(s.contacto)}`);
+    if(s.telefono) contactLines.push(`📞 ${esc(s.telefono)}`);
+    if(s.email) contactLines.push(`✉️ <a href="mailto:${esc(s.email)}">${esc(s.email)}</a>`);
+    if(s.web) contactLines.push(`🔗 <a href="${/^https?:\/\//.test(s.web)?esc(s.web):'https://'+esc(s.web)}" target="_blank" rel="noopener">${esc(s.web)}</a>`);
+    if(s.ubicacion) contactLines.push(`📍 ${esc(s.ubicacion)}`);
+    if(s.moq) contactLines.push(`📦 Pedido mínimo: ${esc(s.moq)}`);
+    return `<div class="supplierCard">
+      <button class="del sdel" onclick="removeItem('suppliers','${s.id}')">✕</button>
+      <span class="estpill ${s.estado||'contactar'}">${ESTADO_LABELS[s.estado]||'Por contactar'}</span>
+      <h3>${esc(s.nombre)}</h3>
+      <div class="scontact">${contactLines.join('<br>')}</div>
+      ${s.productos?`<div class="sproducts"><strong>Vende:</strong> ${esc(s.productos)}</div>`:''}
+      ${s.notas?`<div class="snotes">"${esc(s.notas)}"</div>`:''}
+    </div>`;
+  }).join('');
+}
+
+/* ---------- EXPORT / IMPORT JSON ---------- */
+function exportJSON(){
+  const blob = new Blob([JSON.stringify(state, null, 2)], {type:'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a'); a.href = url; a.download = 'contabilidad-amazon-backup-'+todayStr()+'.json';
+  document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+}
+function importJSONFile(file){
+  const reader = new FileReader();
+  reader.onload = e=>{
+    try{
+      const parsed = JSON.parse(e.target.result);
+      if(!confirm('Esto reemplazará todos los datos actuales por los del archivo. ¿Continuar?')) return;
+      state = Object.assign({settings:{currency:'$',leadTimeDays:21,velocityWindowDays:30},purchases:[],shipments:[],sales:[],expenses:[],adSpend:[],suppliers:[]}, parsed);
+      if(!state.adSpend) state.adSpend=[];
+      if(!state.suppliers) state.suppliers=[];
+      saveData(); renderAll(); syncSettingsInputs();
+      alert('Datos importados correctamente.');
+    }catch(err){ alert('Ese archivo no es una copia de seguridad válida.'); }
+  };
+  reader.readAsText(file);
+}
+
+function syncSettingsInputs(){
+  document.getElementById('currencyInput').value = state.settings.currency||'$';
+  document.getElementById('leadTimeInput').value = state.settings.leadTimeDays||21;
+  document.getElementById('velocityInput').value = state.settings.velocityWindowDays||30;
+}
+
+/* ---------- INIT ---------- */
+async function init(){
+  buildNav();
+  await loadData();
+  syncSettingsInputs();
+
+  document.getElementById('currencyInput').addEventListener('input', e=>{ state.settings.currency = e.target.value||'$'; saveData(); renderAll(); });
+  document.getElementById('leadTimeInput').addEventListener('input', e=>{ state.settings.leadTimeDays = Number(e.target.value)||21; saveData(); renderAll(); });
+  document.getElementById('velocityInput').addEventListener('input', e=>{ state.settings.velocityWindowDays = Number(e.target.value)||30; saveData(); renderAll(); });
+
+  ['formCompra','formEnvio','formVenta','formGasto','formPPC'].forEach(id=>{
+    document.getElementById(id).querySelector('input[name=fecha]').value = todayStr();
+  });
+  bindForm('formProveedor','suppliers');
+  bindForm('formCompra','purchases');
+  bindForm('formEnvio','shipments');
+  bindForm('formVenta','sales');
+  bindForm('formGasto','expenses');
+  bindForm('formPPC','adSpend');
+
+  document.getElementById('rangeSelect').addEventListener('change', e=>{
+    const isCustom = e.target.value==='custom';
+    document.getElementById('customFrom').style.display = isCustom?'flex':'none';
+    document.getElementById('customTo').style.display = isCustom?'flex':'none';
+    renderReportes();
+  });
+  document.getElementById('fromDate').addEventListener('change', renderReportes);
+  document.getElementById('toDate').addEventListener('change', renderReportes);
+
+  document.getElementById('btnExport').addEventListener('click', exportJSON);
+  document.getElementById('btnImportTrigger').addEventListener('click', ()=>document.getElementById('btnImport').click());
+  document.getElementById('btnImport').addEventListener('change', e=>{
+    if(e.target.files && e.target.files[0]) importJSONFile(e.target.files[0]);
+    e.target.value = '';
+  });
+
+  initAutocompletes();
+  switchView('dashboard');
+}
+init();
+</script>
+</body>
+</html>
